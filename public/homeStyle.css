@@ -1,0 +1,104 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+:root {
+  /* text settings */
+
+  /* background settings */
+  --background-image: url("../images/bg.png");
+  --primary-background-color: rgb(199, 241, 255);
+  --secondary-background-color: rgb(137, 255, 243);
+  --border-radius: 12px;
+  --border: 1.5px solid #4213b9;
+  --padding: 15px;
+  --margin: 20px;
+}   
+
+html {
+  background: var(--background-image);
+}
+
+@font-face {
+    font-family: "Sniglet";
+    src: url("../fonts/Sniglet Regular.ttf");
+}
+
+body {
+  color: black;
+  font-family: Verdana;
+}
+
+main {
+  background-color: var(--primary-background-color);
+  border-radius: var(--border-radius);
+  border: var(--border);
+  padding: var(--padding);
+  margin: var(--margin);
+
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+li {
+  float: left;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+#container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+#heading-container {
+  text-align: center;
+  justify-content: center;
+  background-color: var(--primary-background-color);
+  border-radius: var(--border-radius);
+  border: var(--border);
+  
+}
+
+#leftBar {
+  background-color: var(--secondary-background-color);
+  border-radius: var(--border-radius);
+  border: var(--border);
+  margin-top: var(--margin);
+  padding: var(--padding);
+}
+
+
+#main-page-title {
+  font-family: "Sniglet", sans-serif;
+  background-image: linear-gradient(white, rgb(0, 199, 199));
+  color: transparent;
+  background-clip: text;
+}
+

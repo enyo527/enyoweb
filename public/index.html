@@ -1,18 +1,44 @@
 <!DOCTYPE html>
+<!-- Hello to the poor souls reading this horrible code! -->
+<!-- I've commented as much as I can, not just so that it makes sense to you but also to me... -->
+<!-- You might notice that I'm way more formal in these comments than the rest of my website. This is on account of my stupids. I'm also keeping some of the default neocities comments so I don't forget anything (I will anyway)!-->
 <html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>enyo's cave</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Stylesheet for this page -->
+    <link href="homeStyle.css" rel="stylesheet"> 
   </head>
   <body>
-    <h1>Updates coming soon!!</h1>
-      <p> As in like, tomorrow, 25/03/2026!! I don't know exactly how I want the personal part of my webpage to look yet,
-        but I'm excited to update this when I have something to share!</p>
+    <!-- Main container: everything in front of the background (this is written 28/03/2026, so there may be things outside of the container in the future. If so and I haven't updated it since then, sorry to my future self/visitors) -->
+    <div id="container", class="flex-column">
+      <!-- Heading, which is in line with the rest of the content. It contains the title and navbar -->
+      <div id="heading-container">
+        <h1 id="main-page-title">enyo's cave</h1>
+        <nav>
+          <ul>
+          <li><a href="https://enyoscave.neocities.org">Home</a></li>
+          <li><a href="https://enyoscave.neocities.org/blog">Blog</a></li>
+          <li><a href="https://enyoscave.neocities.org/gallery">Gallery</a></li>
+        </ul>
+        </nav>
+       </div>
+       <!-- The home page's content, including the two sidebars and the central info box(es) (or whatever I decide will be in the middle of the page) -->
+        <div class="flex-row">
+          <div id="leftBar">
+            idk what to put here yet
+          </div>
+
+          <main>
+            <h2>Updates coming soon!!</h2>
+            <p> This page is currently under construction! I don't know exactly how I want the personal part of my webpage to look yet, but I'm excited to update this when I have something to share!</p>
+          </main>
+        </div>
+    </div>
+    
+    
+
     <!--<p>This is a paragraph! Here's how you make a link: <a href="https://neocities.org">Neocities</a>.</p>-->
 
     <!--<p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>-->
@@ -29,5 +55,6 @@
     <!--</ul>-->
 
     <!--<p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>-->
+    
   </body>
 </html>
