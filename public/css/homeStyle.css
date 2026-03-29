@@ -6,7 +6,7 @@
   /* text settings */
 
   /* background settings */
-  --background-image: url("images/backgrounds/bg.png");
+  --background-image: url("../images/backgrounds/bg.png");
   --primary-background-color: rgba(205, 243, 255, 0.9);
   --secondary-background-color: rgba(146, 255, 244, 0.9);
   --border-radius: 12px;
@@ -24,17 +24,17 @@ html {
 
 @font-face {
     font-family: "Sniglet";
-    src: url("fonts/Sniglet Regular.ttf");
+    src: url("../fonts/Sniglet Regular.ttf");
 }
 
 @font-face {
   font-family: "Basteleur Bold";
-  src: url("fonts/Basteleur-Bold.ttf");
+  src: url("../fonts/Basteleur-Bold.ttf");
 }
 
 @font-face {
   font-family: "Basteleur Moonlight";
-  src: url("fonts/Basteleur-Moonlight.ttf");
+  src: url("../fonts/Basteleur-Moonlight.ttf");
 }
 
 body {
