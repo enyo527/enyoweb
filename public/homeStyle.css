@@ -6,7 +6,7 @@
   /* text settings */
 
   /* background settings */
-  --background-image: url("images/bg.png");
+  --background-image: url("images/backgrounds/bg.png");
   --primary-background-color: rgba(205, 243, 255, 0.9);
   --secondary-background-color: rgba(146, 255, 244, 0.9);
   --border-radius: 12px;
