@@ -7,8 +7,8 @@
 
   /* background settings */
   --background-image: url("images/bg.png");
-  --primary-background-color: rgb(199, 241, 255);
-  --secondary-background-color: rgb(137, 255, 243);
+  --primary-background-color: rgb(230, 249, 255);
+  --secondary-background-color: rgb(213, 255, 251);
   --border-radius: 12px;
   --border: 1.5px solid #4213b9;
   --padding: 15px;
@@ -24,21 +24,26 @@ html {
     src: url("fonts/Sniglet Regular.ttf");
 }
 
+@font-face {
+  font-family: "Basteleur Bold";
+  src: url("fonts/Basteleur-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Basteleur Moonlight";
+  src: url("fonts/Basteleur-Moonlight.ttf");
+}
+
 body {
   color: black;
   font-family: Verdana;
 }
 
-main {
-  background-color: var(--primary-background-color);
-  border-radius: var(--border-radius);
-  border: var(--border);
+ul {
   padding: var(--padding);
-  margin: var(--margin);
-
 }
 
-ul {
+.navbar {
   list-style-type: none;
   text-align: center;
   margin: 0;
@@ -46,20 +51,32 @@ ul {
   overflow: hidden;
 }
 
-
-li {
-  float: left;
+.navbar li {
+  display: inline-block;
   text-align: center;
+  
 }
 
 li a {
-  display: block;
   padding: 16px;
   text-decoration: none;
 }
 
 h1 {
   font-size: 40pt;
+}
+
+h2 {
+  font-family: "Basteleur Bold", sans-serif;
+}
+
+.main-box {
+  background-color: var(--primary-background-color);
+  border-radius: var(--border-radius);
+  border: var(--border);
+  padding: var(--padding);
+  margin: var(--margin);
+
 }
 
 .flex-column {
@@ -83,21 +100,23 @@ h1 {
   background-color: var(--primary-background-color);
   border-radius: var(--border-radius);
   border: var(--border);
+  padding: var(--padding);
   
 }
 
-#leftBar {
+
+#left-bar {
   background-color: var(--secondary-background-color);
   border-radius: var(--border-radius);
   border: var(--border);
   margin-top: var(--margin);
   padding: var(--padding);
+  max-width: 15%;
 }
-
 
 #main-page-title {
   font-family: "Sniglet", sans-serif;
-  background-image: linear-gradient(white, rgb(0, 199, 199));
+  background-image: linear-gradient(rgb(0, 217, 255), rgb(2, 87, 213));
   color: transparent;
   background-clip: text;
 }
