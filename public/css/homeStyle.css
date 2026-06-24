@@ -6,7 +6,7 @@
   /* text settings */
 
   /* background settings */
-  --background-image: url("../images/backgrounds/bg.png");
+  --background-image: url("../images/UI/backgrounds/bg.png");
   --primary-background-color: rgba(205, 243, 255, 0.9);
   --secondary-background-color: rgba(146, 255, 244, 0.9);
   --border-radius: 12px;
@@ -37,6 +37,11 @@ html {
   src: url("../fonts/Basteleur-Moonlight.ttf");
 }
 
+@font-face {
+  font-family: "Princess Sofia";
+  src: url(../fonts/PrincessSofia-Regular.ttf);
+}
+
 body {
   color: black;
   font-family: "Basteleur Moonlight", 'Times New Roman', Times, serif;
@@ -63,6 +68,7 @@ ul {
 li a {
   padding: 16px;
   text-decoration: none;
+  font-family: "Basteleur Bold";
 }
 
 h1 {
@@ -128,6 +134,7 @@ h2 {
 #main-page-title {
   font-family: "Sniglet", sans-serif;
   background-image: linear-gradient(rgb(0, 217, 255), rgb(2, 87, 213));
+  
   color: transparent;
   background-clip: text;
 }

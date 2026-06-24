@@ -1,0 +1,35 @@
+/* For this page I want to have a bug theme. It'll be more cohesive eventually but for now please enjoy the wallpaper */
+:root {
+  /* text settings */
+
+  /* background settings */
+  --background-image: url("../images/UI/backgrounds/wallpaper.jpg");
+  --box-image-1: url("../images/UI/frames/blog_bug_frame_light.png");
+  --box-background-1: url("../images/UI/bug-box-background-1.jpg");
+  --primary-background-color: rgba(205, 243, 255, 0.9);
+  --secondary-background-color: rgba(146, 255, 244, 0.9);
+  --border-radius: 12px;
+  --border: 1.5px solid #4213b9;
+  --padding: 15px;
+  --margin: 20px;
+  --small-padding: 7px;
+  --small-margin: 10px;
+  --small-font: 0.8em;
+}   
+
+html {
+    background-image: var(--background-image);
+    background-size: 500px;
+    
+}
+
+.box1 {
+    border: 25px solid transparent;
+    border-image: var(--box-image-1) 213 round;
+    width: 500px;
+    background-image: var(--box-background-1);
+    background-size: 500px;
+    background-clip: padding-box;
+    padding: var(--padding);
+    filter: drop-shadow(rgba(0,0,0,1) 5px 5px 10px);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Hello to the poor souls reading this horrible code! -->
+<!-- I've commented as much as I can, not just so that it makes sense to you but also to me... -->
+<!-- You might notice that I'm way more formal in these comments than the rest of my website. This is on account of my stupids. I'm also keeping some of the default neocities comments so I don't forget anything (I will anyway)!-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enyo's webbed site</title>
+    <!-- Stylesheet for this page -->
+    <link href="../css/blogStyle.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@calendarjs/ce/dist/style.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons" />
+<script src="https://cdn.jsdelivr.net/npm/lemonadejs/dist/lemonade.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@calendarjs/ce/dist/index.min.js"></script>
+
+  </head>
+<body>
+
+    <div class="box1">
+        <h2>2026-06-24: Welcome to my blog page!</h2>
+        <p>hello there</p>
+        <p>this is my blog page</p>
+        <p>im trying out this border rn i hope it works</p>
+    </div>
+    <div id="root"></div>
+<script>
+  const { Calendar } = calendarjs;
+
+  Calendar(document.getElementById('root'), {
+    type: 'inline',
+    value: new Date()
+  });
+</script>
+</body>
+</html>
